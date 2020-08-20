@@ -280,3 +280,8 @@ const words = ["The", "quick", "brown", "fox", "jumped", "over", "the", "lazy", 
 const sentence = words.reduce((a, b) => a += b + ' ', ' ')
 
 console.log(sentence)
+
+                                                    // BIG SPENDERS
+const bigSpenders = businesses.filter(business => { business.orders > 9000
+})
+console.log(bigSpenders)
