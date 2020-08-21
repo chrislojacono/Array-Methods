@@ -8,5 +8,7 @@ const nineteen = integers.filter((int) => int > 19)
 
 console.log(nineteen)
 
-const addSubtract = nineteen.forEach((int) => (int * 1.5 - 1))
+const addSubtract = nineteen.reduce((accum, currentValue) => {
+        console.log(accum, currentValue) 
+        return accum + currentValue  * 1.5 - 1}, 0)
 console.log(addSubtract)
