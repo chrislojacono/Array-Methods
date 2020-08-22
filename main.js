@@ -187,7 +187,6 @@ const lightningAgents = businesses.map((agent) =>{
        "phoneNumber": agent.phoneWork,
 }
     
-    
 
 })
 lightningAgents.forEach(agent =>{
